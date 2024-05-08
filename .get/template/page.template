@@ -1,0 +1,1 @@
+Результат <? echo $page_title; ?> <? echo $url; ?>

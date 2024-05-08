@@ -1,0 +1,17 @@
+{
+    "name": "Set/router",
+	"description": "Set - это быстрая, простая, расширяемая среда для PHP (форк), за основу которого взят Flight (flightphp). Set позволяет вам быстро и легко создавать веб-приложения, следующие принципам REST.",
+	"homepage": "https://setcms.org",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "p3z3",
+            "email": "438833@gmail,com",
+            "homepage": "https://setcms.org",
+            "role": "Оригинальный разработчик"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}

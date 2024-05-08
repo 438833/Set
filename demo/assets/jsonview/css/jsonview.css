@@ -1,0 +1,93 @@
+.jsonview
+{
+  color: #657b83;
+  padding-left: 20px;
+}
+
+.jsonview ul
+{
+  list-style-type: none;
+  margin: 0;
+  margin: 0 0 0 1px;
+  border-left: 1px dotted #ccc;
+  padding-left: 2em;
+}
+
+.jsonview .hide
+{
+  display: none;
+}
+
+.jsonview .type-string
+{
+  color: #2aa198;
+}
+
+.jsonview .type-date
+{
+  color: #cb4b16;
+}
+
+.jsonview .type-boolean
+{
+  color: #736ab5;
+  font-weight: bold;
+}
+
+.jsonview .type-number
+{
+  color: #268bd2;
+}
+
+.jsonview .type-null, .jsonview .type-undefined
+{
+  color: #dc71e8;
+}
+
+.jsonview a.list-link
+{
+  color: #000;
+  text-decoration: none;
+  position: relative;
+}
+
+.jsonview a.list-link:before
+{
+  color: rgb(95, 144, 185);
+  content: '\25BC';
+  position: absolute;
+  display: inline-block;
+  width: 1em;
+  left: -1em;
+}
+
+.jsonview a.list-link.collapsed:before
+{
+  content: '\25B6';
+}
+
+.jsonview a.list-link.empty:before
+{
+  content: '';
+}
+
+.jsonview .items-ph
+{
+  color: #aaa;
+  padding: 0 1em;
+}
+
+.jsonview .items-ph:hover
+{
+  text-decoration: underline;
+}
+
+.jsonview a.list-link:before,
+.jsonview a.list-link.collapsed:before
+{
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	width: 1em;
+	top: 0.3em;
+	left: -1.5em;
+}

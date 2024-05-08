@@ -1,0 +1,192 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	background: #f3f3f3;
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #55a0bf;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #555555;
+}
+
+pre {
+	border: 1px solid #eef2f3;
+	border-radius: 5px;
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	color: #000;
+	background: #eff4ff;
+	text-shadow: 0 1px #fff;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1.15em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+code {
+	color: #333;
+}
+
+ul {
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #eee;
+}
+
+#container {
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	background-color: #fff;
+	border: 1px solid #f1f1f1;
+	border-top: 1px solid #f3f3f3;
+	border-left: 1px solid #f1eeee;
+	box-shadow: 3px 3px 3px rgba(233, 230, 230, 0.2);
+}
+
+#content {
+	position: relative;
+	padding: 0 30px 10px 30px;
+}
+
+#header {
+	padding: 10px 30px 0 30px;
+}
+
+#footer {
+	color: #999;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 20px 0 40px;
+}
+
+#footer iframe {
+	margin: 10px 5px;
+}
+
+#title {
+	font-family: "Mr Dafoe", Times, serif;
+	font-size: 60px;
+}
+
+#title small {
+	padding-left: 10px;
+	font-size: 20px;
+	_vertical-align: super;
+	color: #55a0bf;
+}
+
+#subtitle {
+	font-size: 14px;
+	color: #888888;
+}
+
+#nav {
+	margin-left: -15px;
+}
+
+#nav a {
+	margin: 0 15px;
+}
+
+#menu {
+	display: none;
+	position: absolute;
+	width: 180px;
+	padding: 0;
+	margin: 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#menu li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+#docs {
+	margin-left: -30px;
+	padding-left: 30px;
+	border-left: none;
+}
+
+@media(min-width: 576px)
+{
+	#container {
+	}
+}
+
+@media(min-width: 768px)
+{
+	#container {
+	}
+}
+
+@media(min-width: 992px)
+{
+	#menu
+	{
+		display: block;
+	}
+	#docs
+	{
+		margin-left: 180px;
+		border-left: 1px solid #f3f1f1;
+	}
+	#container
+	{
+		margin: 30px auto 60px;
+		max-width: 960px;
+	}
+}
+
+@media(min-width: 1200px)
+{
+	#menu
+	{
+		display: block;
+	}
+	#docs
+	{
+		margin-left: 180px;
+		border-left: 1px solid #f3f1f1;
+	}
+	#container {
+		margin: 0 auto 60px;
+		max-width: 100%;
+	}
+}

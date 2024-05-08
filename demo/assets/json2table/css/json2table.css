@@ -1,0 +1,49 @@
+.json2table,
+.json2table table
+{
+	border-collapse: collapse;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px #5f90b9;
+  width: 100%;
+}
+
+.json2table table
+{
+  box-shadow: 0 0 0 1px #e6e6e6;
+}
+
+.json2table td, .json2table th
+{
+    border: 1px #5f90b9 solid;
+}
+
+.json2table table td, .json2table table th
+{
+    border: 1px #e6e6e6 solid;
+}
+
+.json2table thead
+{
+	background-color: #5f90b9;
+}
+
+.json2table table > thead
+{
+	background-color: #e6e6e6;
+}
+
+.json2table > thead
+{
+	color: #ffffff;
+}
+
+.json2table td
+{
+  padding: 12px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+}

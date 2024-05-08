@@ -1,0 +1,47 @@
+MIT License
+
+Copyright (c) 2006 p3z3 <438833@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+_____________________________________________________________________________
+
+Лицензия свободного программного обеспечения, разработанная Массачусетским 
+технологическим институтом.
+
+Авторское право (c) 2006 p3z3 <438833@gmail.com>
+
+Настоящим предоставляется разрешение безвозмездно любому лицу, получающему
+копию этого программного обеспечения и связанных с ним файлов документации 
+(далее - "Программное обеспечение"), на оборот Программного обеспечения 
+без ограничений, включая, без ограничений, права на использование, копирование, 
+изменение, объединение, публикацию, распространение, сублицензирование и/или
+продажу копий Программного обеспечения, а также разрешение лицам, которым 
+Программное обеспечение предоставлено, совершать это, при условии соблюдения 
+следующих условий:
+
+Вышеприведенное уведомление об авторском праве и это уведомление о разрешении 
+должны быть включены в все копии или значительные части Программного обеспечения.
+
+ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ "КАК ЕСТЬ", БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, 
+ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ, ГАРАНТИИ ТОВАРНОГО 
+СОСТОЯНИЯ, ПРИГОДНОСТИ ДЛЯ ОПРЕДЕЛЕННОЙ ЦЕЛИ И НЕНАРУШЕНИЯ. В НИКОМ СЛУЧАЕ 
+АВТОРЫ ИЛИ ПРАВООБЛАДАТЕЛИ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА ЛЮБЫЕ ПРЕТЕНЗИИ, УЩЕРБ 
+ИЛИ ДРУГУЮ ОТВЕТСТВЕННОСТЬ, БУДЬ ТО ПО ДОГОВОРУ, ДЕЛИКТУ ИЛИ ИНЫМ ОБРАЗОМ, 
+ВОЗНИКАЮЩИЕ ИЗ ИСПОЛЬЗОВАНИЯ, ДАННЫЕ ИЛИ ДРУГИЕ ДЕЙСТВИЯ В СВЯЗИ С ПРОГРАММНЫМ 
+ОБЕСПЕЧЕНИЕМ ИЛИ ИСПОЛЬЗОВАНИЕМ ИЛИ ДРУГИМИ СПОСОБАМИ.

@@ -1,0 +1,249 @@
+<style type="text/css" media="screen">
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&subset=latin,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek,vietnamese");
+
+*
+{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  box-sizing: border-box;
+}
+
+html
+, body
+{
+  height: 100%;
+}
+
+html
+, body
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  font-size: 1rem;
+}
+
+hr
+{
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: 2px;
+  margin: -1rem 0 5rem -50vw;
+  left: 50%;
+  border: none;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+.handler-alert
+{
+  overflow: hidden;
+  position: relative;
+  padding: 15px 25px;
+  word-break: break-all;
+  line-height: 1rem;
+  font-family: Roboto;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+.handler-head
+{
+  top: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.handler-right
+, .handler-right a
+{
+  color: rgba(255, 255, 255, 0.31) !important;
+  float: right;
+  text-transform: capitalize;
+}
+
+.handler-right a
+{
+  text-decoration: none;
+}
+
+.handler-head .so-link
+{
+  text-decoration: none;
+  color: rgba(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: inherit;
+  transform: translateX(5px) translateY(5px) rotate(-35deg);
+  -webkit-transform: translateX(5px) translateY(5px) rotate(-35deg);
+  -moz-transform: translateX(5px) translateY(5px) rotate(-35deg);
+  -o-transform: translateX(5px) translateY(5px) rotate(-35deg);
+  font-size: 1.8rem;
+}
+
+.handler-mark
+{
+  background: rgba(117, 59, 57, .88);
+  padding: 4px;
+  margin-left: -4px;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 0 0px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
+}
+
+.handler-preview
+{
+  position: relative;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  background: white;
+  color: #333;
+  padding: 2pc;
+  border-radius: 3px;
+  box-shadow: 0 0px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
+}
+
+.handler-line
+{
+  margin-left: -10px;
+  color: rgba(68, 108, 179, .65);
+  background: rgba(167, 176, 204, .14);
+  padding: 2px 5px;
+  margin-top: -1px;
+  margin-right: 14px;
+  display: inline-table;
+  text-align: center;
+}
+
+.handler-line.first
+{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.handler-line.last
+{
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.handler-line.first
+, .handler-line.last
+{
+  background: rgba(222, 57, 52, .14);
+}
+
+.handler-trace
+{
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 2pc 0pc 2pc 0pc;
+}
+
+.handler-trace br
+{
+  line-height: 1vw;
+}
+
+.handler-file
+{
+  float: right;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-right: -18px;
+  word-break: break-all;
+  color: #363838;
+  margin-top: -24px;
+}
+
+.handler-preview code
+{
+  margin-top: -16px;
+  display: block;
+}
+
+hr ~ *
+, handler-file ~ *
+{
+  clear: both;
+}
+
+.default
+{
+  background-color: #446CB3;
+}
+
+.exception
+{
+  background-color: rgba(84, 96, 117, 1);
+}
+
+.error
+{
+  background-color: #D91E18;
+}
+
+.warning
+{
+  background-color: #F9690E;
+}
+
+.notice
+{
+  background-color: #674172;
+}
+
+.code-comment
+{
+  color: #674172;
+}
+
+.code-default
+{
+  color: #83a36f;
+}
+
+.code-keyword
+{
+}
+
+.code-string
+{
+}
+
+@media(max-width: 600px)
+{
+  body
+  {
+    font-size: 100%;
+  }
+
+  .handler-preview
+  {
+    width: auto;
+  }
+
+  .handler-box
+  {
+    width: 100vw;
+  }
+
+  .handler-file
+  {
+    float: left;
+    margin-left: -9px;
+  }
+}
+
+</style>
