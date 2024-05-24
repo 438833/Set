@@ -37,11 +37,13 @@ class Collection implements \ArrayAccess, \Iterator, \Countable, \JsonSerializab
         unset($this->data[$key]);
     }
 
+	#[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return isset($this->data[$offset]) ? $this->data[$offset] : null;
     }
 
+	#[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
     {
         if(is_null($offset))
@@ -54,42 +56,50 @@ class Collection implements \ArrayAccess, \Iterator, \Countable, \JsonSerializab
         }
     }
 
+	#[\ReturnTypeWillChange]
     public function offsetExists($offset)
     {
         return isset($this->data[$offset]);
     }
 
+	#[\ReturnTypeWillChange]
     public function offsetUnset($offset)
     {
         unset($this->data[$offset]);
     }
 
+	#[\ReturnTypeWillChange]
     public function rewind()
     {
         reset($this->data);
     }
 
+	#[\ReturnTypeWillChange]
     public function current()
     {
         return current($this->data);
     }
 
+	#[\ReturnTypeWillChange]
     public function key()
     {
         return key($this->data);
     }
 
+	#[\ReturnTypeWillChange]
     public function next() 
     {
         return next($this->data);
     }
 
+	#[\ReturnTypeWillChange]
     public function valid()
     {
         $key = key($this->data);
         return ($key !== null && $key !== false);
     }
 
+	#[\ReturnTypeWillChange]
     public function count()
     {
         return count($this->data);
@@ -115,6 +125,7 @@ class Collection implements \ArrayAccess, \Iterator, \Countable, \JsonSerializab
         $this->data = array();
     }
 
+	#[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->data;
